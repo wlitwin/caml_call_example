@@ -1,0 +1,6 @@
+(executable
+ (public_name temp)
+ (modes js byte)
+ (name main)
+ (js_of_ocaml (flags (:standard --pretty)))
+ (libraries lib impl1 impl2))

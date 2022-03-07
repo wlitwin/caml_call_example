@@ -1,0 +1,4 @@
+(library
+  (name impl2)
+  (libraries intf)
+  )
